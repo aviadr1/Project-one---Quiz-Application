@@ -1,0 +1,86 @@
+﻿Question_number,Question,Description,Option_1,Option_2,Option_3,Option_4,Question_value,correct_answer
+1,What is the output of the following code?,"var1 = 1
+var2 = 2
+var3 = ""3""
+
+print(var + var2 + var3)",6,33,123,Error. Mixing operators between numbers and strings are not supported,10,Error. Mixing operators between numbers and strings are not supported
+2,What is the output of the following code?,"var= ""James Bond""
+print(var[2::-1])",Jam,dno,maJ,dnoB semaJ,10,maJ
+3, What is the output of the following code?,"sampleList = [""Jon"", ""Kelly"", ""Jessa""]
+sampleList.append(2, ""Scott"")
+print(sampleList)",The program executed with errors,"[‘Jon’, ‘Kelly’, ‘Scott’, ‘Jessa’]","[‘Jon’, ‘Kelly’, ‘Jessa’, ‘Scott’]","[‘Jon’, ‘Scott’, ‘Kelly’, ‘Jessa’]",10,The program executed with errors
+4,What is the output of the following variable assignment,"x = 75
+def myfunc():
+    x = x + 1
+    print(x)
+
+myfunc()
+print(x)",Error,76,1,None,10,Error
+5,Please select the correct expression to reassign a global variable “x” to 20 inside a function fun1(),"x = 50
+def fun1():
+    # your code to assign global x = 20
+fun1()
+print(x) # it should print 20",global x =20,"global var x
+x = 20",global.x = 20,"global x
+x = 20",10,"global x
+x = 20"
+6,What is the output of the following code,"print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))",False True False True,True True False True,True True False True,False True True True,10,False True True True
+7,What is the output of the following code,"x = 6
+y = 2
+print(x ** y)
+print(x // y)","66
+0","36
+0","66
+3","36
+3",10,"36
+3"
+8,What is the output of the following code,"x = 100
+y = 50
+print(x and y)",TRUE,100,FALSE,50,10,50
+9,"In Python3, which functions are used to accept input from the user?",,input(),raw_input(),rawinput(),string(),10,input()
+10,What is the output of the add() function call,"def add(a, b):
+    return a+5, b+5
+
+result = add(3, 2)
+print(result)",15,8,"(8, 7)",Syntax Error,10,"(8, 7)"
+11,"Given the nested if-else below, what will be the value x when the code executed successfully","x = 0
+a = 5
+b = 5
+if a > 0:
+    if b < 0: 
+        x = x + 5 
+    elif a > 5:
+        x = x + 4
+    else:
+        x = x + 3
+else:
+    x = x + 2
+print(x)",0,4,2,3,10,3
+12,What is the value of the var after the for loop completes its execution,"var = 10
+for i in range(10):
+    for j in range(2, 10, 1):
+        if var % 2 == 0:
+            continue
+            var += 1
+    var+=1
+else:
+    var+=1
+print(var)",20,21,10,30,10,21
+13,Select which is true for for loop,,"Python’s for loop used to iterates over the items of list, tuple, dictionary, set, or string",else clause of for loop is executed when the loop terminates naturally,else clause of for loop is executed when the loop terminates abruptly,We use for loop when we want to perform a task indefinitely until a particular condition is met,10,"Python’s for loop used to iterates over the items of list, tuple, dictionary, set, or string"
+14,Select the correct output of the following String operations,"strOne = str(""pynative"")
+strTwo = ""pynative""
+print(strOne == strTwo)
+print(strOne is strTwo)",false false,true true,true false,false true,10,true true
+15, What is the output of the following union operation,"set1 = {10, 20, 30, 40}
+set2 = {50, 20, ""10"", 60}
+
+set3 = set1.union(set2)
+print(set3)","{40, 10, 50, 20, 60, 30}","{40, ’10’, 50, 20, 60, 30}","{40, 10, ’10’, 50, 20, 60, 30}",SynatxError: Different types cannot be used with sets,10,"{40, 10, ’10’, 50, 20, 60, 30}"
+16,What is the type of the following variable,"aTuple = (""Orange"")
+print(type(aTuple))",list,tuple,array,str,10,str
+17,Choose the correct way to access value 20 from the following tuple,"aTuple = (""Orange"", [10, 20, 30], (5, 15, 25))",aTuple[1:2][1],aTuple[1:2](1),aTuple[1:2][1],aTuple[1][1],10,aTuple[1][1]
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
